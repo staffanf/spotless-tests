@@ -18,8 +18,8 @@ mainClassName = 'App'
 
 spotless {
   java {
+//    removeUnusedImports() // removes any unused imports
+    eclipse().configFile ".settings/org.eclipse.jdt.core.prefs"
     importOrderFile "eclipse.importorder"
-    removeUnusedImports() // removes any unused imports
-    eclipse().configFile "org.eclipse.jdt.core.prefs"
   }
 }
