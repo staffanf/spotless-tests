@@ -1,6 +1,8 @@
-/.idea/
+/.idea/*
+!/.idea/eclipseCodeFormatter.xml
 *.iml
 /build/
 /.gradle/
 /bin/
 .settings/org.eclipse.buildship.core.prefs
+
